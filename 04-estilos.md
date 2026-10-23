@@ -122,20 +122,20 @@ Código relevante:
 
 En este CSS verás repetidos estos colores:
 
-- **Rojo principal:** `#E00034`
+- **Rojo principal:** `#4A4A4A`
 - **Rosa claro/acento:** `#FFD5DE`
 - **Rojo oscuro hover:** `#b00028`
 
 Recomendación práctica:
 - Para cambiar la “marca”, normalmente te basta con cambiar:
-  - `#E00034` (color principal)
+  - `#4A4A4A` (color principal)
   - `#FFD5DE` (acento)
   - y la variable `--link-color`.
 
 Ejemplo de variable de enlaces:
 
 ```css
-:root { --link-color: #E00034; }
+:root { --link-color: #4A4A4A; }
 a, a:visited { color: var(--link-color); }
 ```
 
@@ -146,7 +146,7 @@ El CSS fuerza el sidebar en rojo y los links en blanco:
 ```css
 .side-bar,
 .side-bar .site-nav,
-.side-bar .nav-list { background-color: #E00034 !important; }
+.side-bar .nav-list { background-color: #4A4A4A !important; }
 
 .nav-list .nav-list-link,
 .nav-list .nav-list-link:visited { color: #ffffff !important; }

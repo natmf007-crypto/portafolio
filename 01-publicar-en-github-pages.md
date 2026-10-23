@@ -6,7 +6,7 @@ nav_order: 2
 
 # Publicar sitio en GitHub Pages
 
-En este curso vamos a publicar tu documentación como un **sitio web** usando:
+En esteeeeeeee curso vamos a publicar tu documentación como un **sitio web** usando:
 
 - **GitHub** (para guardar el repositorio y el historial)
 - **GitHub Pages** (para convertir el repositorio en una URL pública)
